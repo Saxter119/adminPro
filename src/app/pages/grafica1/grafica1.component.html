@@ -1,0 +1,32 @@
+<div class="row">
+
+  <div class="col-6">
+    <app-pie
+    [graficName]="'ventas'"
+    [labels]="labels"
+    [pieColors]="colors"
+    [data]="data"
+    >
+  </app-pie>
+  </div>
+
+  <div class="col-6">
+    <app-pie
+    [graficName]="'ventas'"
+    [labels]="labels"
+    [pieColors]="['#9F70FD', '#FDBF60', '#7F27FF', '#FF8911', '#T68JH1', ]"
+    [data]="data"
+    ></app-pie>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-6">
+    <app-pie></app-pie>
+  </div>
+
+  <div class="col-6">
+    <app-pie></app-pie>
+  </div>
+
+</div>
